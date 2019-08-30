@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/btnHome"
+            android:title="Home"
+            android:icon="@drawable/ic_home_gray_24dp" />
+        <item android:id="@+id/btnUnList"
+            android:title="UniversityList"
+            android:icon="@drawable/ic_view_list_blue_24dp"/>
+
+        <item android:id="@+id/btnRegister"
+            android:title="Register"
+            android:icon="@drawable/register"/>
+        <item android:id="@+id/btnLogin"
+              android:title="Login"
+            android:icon="@drawable/login"/>
+        <item android:id="@+id/btnAddMajor"
+            android:title="Add Major"
+            android:icon="@drawable/add"
+            />
+        <item android:id="@+id/btnLogOut"
+            android:title="LogOut"
+            android:icon="@drawable/logout"/>
+    </group>
+
+</menu>

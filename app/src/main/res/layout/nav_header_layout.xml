@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/colorPrimary"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_gravity="top"
+
+    style="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/img_homeUniversity"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_univer" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:fontFamily="sans-serif-light"
+
+        android:text="Home"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+
+</LinearLayout>
